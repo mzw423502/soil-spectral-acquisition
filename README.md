@@ -1,6 +1,6 @@
 # Selective soil spectral acquisition: reproducibility package
 
-Reproducibility materials prepared for release 1.0.0. Public-release permission has been granted; the software license and a version-specific archive DOI have yet to be finalized. This package contains scripts, aggregate results, and restricted subsets of sample-partition records. Source spectra and reference measurements are not redistributed.
+The [R10 update](r10/README.md) adds fold-local M5 component selection, ICRAF–ISRIC whole-country validation with optimized NIR–MIR fusion, NIR-only ranking baselines, and publication-ready aggregate tables. The original v1.0.0 analysis is retained below. No source spectra or sample-level reference measurements are redistributed.
 
 ## Sources and reuse
 

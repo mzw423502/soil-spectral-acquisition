@@ -1,0 +1,14 @@
+{
+  "all_tasks_complete": true,
+  "outer_folds": 15,
+  "loco_countries": 37,
+  "outer_samples": 6244,
+  "loco_samples": 3370,
+  "max_M1_reproduction_error": 4.618527782440651e-14,
+  "M5_same_component_folds": 15,
+  "M5_max_prediction_change": 1.5631940186722204e-13,
+  "PLS_component_path_validation_comparisons": 54,
+  "PLS_max_path_error": 4.263256414560601e-14,
+  "bootstrap_n": 3000,
+  "bootstrap_seed": 20261125
+}
