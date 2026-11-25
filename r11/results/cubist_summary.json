@@ -1,0 +1,81 @@
+{
+  "MAE_M1": 0.6969290104619552,
+  "MAE_M2": 0.350816259034558,
+  "MAE_M4": 0.347513608000627,
+  "MAE_priority_20": 0.48692807648798725,
+  "MAE_random_20": 0.6271695439736859,
+  "priority_minus_random": -0.14024146748569852,
+  "G_M_negative_pct": 28.637101135749052,
+  "G_F_negative_pct": 27.285018929150894,
+  "rel_reduction_pct": 22.361013673773456,
+  "n": 3698,
+  "group_count": 670,
+  "selected_20": 738,
+  "realized_budget": 0.1995673336938886,
+  "bootstrap_n": 3000,
+  "bootstrap_seed": 20261125,
+  "cluster_CI_95": {
+    "MAE_M1": [
+      0.6207032141785913,
+      0.7800093471232455
+    ],
+    "MAE_M2": [
+      0.3092309796960775,
+      0.3974531074767171
+    ],
+    "MAE_M4": [
+      0.30571984257109397,
+      0.3948423383303771
+    ],
+    "MAE_priority_20": [
+      0.44347781763076005,
+      0.5337460113015332
+    ],
+    "MAE_random_20": [
+      0.5601554598237329,
+      0.7020231725228075
+    ],
+    "priority_minus_random": [
+      -0.1867940224708624,
+      -0.09631385886739349
+    ],
+    "G_M_negative_pct": [
+      26.795397214556406,
+      30.45022601871693
+    ],
+    "G_F_negative_pct": [
+      25.479298774243812,
+      29.04297389367437
+    ],
+    "rel_reduction_pct": [
+      16.696682063523827,
+      27.641115343950855
+    ]
+  },
+  "G_M_negative_n": 1059,
+  "G_F_negative_n": 1009,
+  "status": "complete",
+  "dataset": "ICRAF–ISRIC",
+  "model": "Cubist",
+  "cubist_version": "1.2.2",
+  "python_version": "3.12.10",
+  "parameters": {
+    "n_rules": 500,
+    "n_committees": 1,
+    "neighbors": null,
+    "random_state": 20261125
+  },
+  "input_sha256": {
+    "data_icraf.npz": "35e70567762ca4224d8f64c69f5b2be91f8335f917755e1ce57764263439d69a",
+    "outer_split_manifest.csv": "46450d5092cb33b2a902694d36fd3c5be992588def5743e032687bec895dbf45",
+    "inner_split_manifest.csv": "fe6d21ec22b9207aa2a55a9540aaa2b6a3da3a46fab8577e79bdddd1476ed245"
+  },
+  "elapsed_seconds": null,
+  "execution_mode": "assembled_from_saved_outer_folds",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "preproc": "SNV + SG window 11, order 2, derivative 1",
+  "M4": "Convex weight minimizing inner OOF MAE (grid 0.00–1.00 in increments of 0.05)",
+  "random_reference": "Exact matched-quota expected loss within each held-out fold",
+  "uncertainty": "Profile-cluster bootstrap conditional on original fitted predictions and selections"
+}

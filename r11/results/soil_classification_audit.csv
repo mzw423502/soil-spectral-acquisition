@@ -1,0 +1,3 @@
+dataset,source_rows,analysis_rows,exact_id_matches,site_fields,candidate_fields,with_classification,without_classification,missing_pct,absence_type
+ICRAF–ISRIC,4073,3698,3698,9,0,0,3698,100.0,field absent (structural)
+LUCAS–Woodwell,43914,572,572,13,0,0,572,100.0,field absent (structural)

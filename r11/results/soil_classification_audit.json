@@ -1,0 +1,67 @@
+{
+  "scope": "ICRAF–ISRIC and LUCAS–Woodwell analytical samples; NeoSpectra not audited",
+  "note": "USDA-suffixed depth and layer sequence fields describe layer metadata, not USDA Soil Taxonomy. Land-use fields are not soil taxonomic classes. Absence applies to the OSSL v1.3 inputs examined, not to every source archive.",
+  "outer_manifest_sha256": "46450d5092cb33b2a902694d36fd3c5be992588def5743e032687bec895dbf45",
+  "datasets": {
+    "icraf": {
+      "dataset": "ICRAF–ISRIC",
+      "source_rows": 4073,
+      "analysis_rows": 3698,
+      "exact_id_matches": 3698,
+      "site_fields": 9,
+      "candidate_fields": 0,
+      "with_classification": 0,
+      "without_classification": 3698,
+      "missing_pct": 100.0,
+      "absence_type": "field absent (structural)",
+      "site_column_names": [
+        "dataset.code_ascii_txt",
+        "id.layer_uuid_txt",
+        "id.layer_local_c",
+        "loc.country_src_txt",
+        "layer.sequence_usda_uint16",
+        "layer.upper.depth_usda_cm",
+        "layer.lower.depth_usda_cm",
+        "longitude.point_wgs84_dd",
+        "latitude.point_wgs84_dd"
+      ],
+      "classification_columns": [],
+      "counts_by_field": {},
+      "source_path": "data/icraf/ossl_soilsite_v1.3.parquet",
+      "sample_join_key": "id.layer_local_c",
+      "source_sha256": "c81c652781f6a71ef0d32b70d128dc0f0032cec7a1cd4d58e606c1adc48f000f"
+    },
+    "lucas": {
+      "dataset": "LUCAS–Woodwell",
+      "source_rows": 43914,
+      "analysis_rows": 572,
+      "exact_id_matches": 572,
+      "site_fields": 13,
+      "candidate_fields": 0,
+      "with_classification": 0,
+      "without_classification": 572,
+      "missing_pct": 100.0,
+      "absence_type": "field absent (structural)",
+      "site_column_names": [
+        "dataset.code_ascii_txt",
+        "id.layer_uuid_txt",
+        "id.layer_local_c",
+        "longitude.point_wgs84_dd",
+        "latitude.point_wgs84_dd",
+        "loc.country_src_txt",
+        "site.landuse2009_src_code",
+        "site.landuse2012_src_code",
+        "layer.upper.depth_usda_cm",
+        "layer.lower.depth_usda_cm",
+        "observation.date.begin_iso.8601_yyyy.mm.dd",
+        "observation.date.end_iso.8601_yyyy.mm.dd",
+        "site.landuse2015_src_code"
+      ],
+      "classification_columns": [],
+      "counts_by_field": {},
+      "source_path": "data/lucas/ossl_soilsite_v1.3.parquet",
+      "sample_join_key": "id.layer_local_c",
+      "source_sha256": "bac8c62104c8b133a143f2e749e6beb950fa2e8b07063dbdf06e069fbada01fe"
+    }
+  }
+}

@@ -1,5 +1,7 @@
 # Selective soil spectral acquisition: reproducibility package
 
+The [R11 update](r11/README.md) adds the five-fold Cubist sensitivity analysis, fusion-weight audit, and OSSL soil-classification metadata checks.
+
 The [R10 update](r10/README.md) adds fold-local M5 component selection, ICRAF–ISRIC whole-country validation with optimized NIR–MIR fusion, NIR-only ranking baselines, and publication-ready aggregate tables. The original v1.0.0 analysis is retained below. No source spectra or sample-level reference measurements are redistributed.
 
 ## Sources and reuse

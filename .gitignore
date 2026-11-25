@@ -22,3 +22,8 @@ __pycache__/
 /stage2/results/
 /reproduced_figures/
 .venv/
+/r11_local_results/
+/r11/cubist_progress/
+/r11/cubist_icraf_oof_predictions.csv
+/r11/cubist_vendor/
+*.whl
