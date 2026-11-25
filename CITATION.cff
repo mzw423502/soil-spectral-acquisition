@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility package if you use it."
+type: software
+title: "When is a second spectrum worth measuring? Selective near- and mid-infrared acquisition for soil organic carbon estimation: reproducibility materials"
+version: 1.0.0
+authors:
+  - family-names: Ma
+    given-names: Zhongwu
+    affiliation: "Hebei University; Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College"
+  - family-names: Li
+    given-names: Wanyun
+    affiliation: "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College"
+  - family-names: Liu
+    given-names: Zhe
+    affiliation: "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College"
+  - family-names: Chen
+    given-names: Caixia
+    affiliation: "Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences and Peking Union Medical College"
+keywords:
+  - soil organic carbon
+  - soil spectroscopy
+  - near-infrared spectroscopy
+  - mid-infrared spectroscopy
+  - selective measurement acquisition
+  - resource allocation
